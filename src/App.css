@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.tweet{
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+/*.app{
+  min-height: 100vh;
+  background: rgb(185, 129, 45);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}*/
+.table1.th,td{
+  border: 1px solid black;
+  border-collapse: collapse; 
+}
+#headers{
+  background-color: rgb(148, 121, 85);
+  font-style: oblique;
+  justify-items: center;
+}
+#ab{
+  display: flex;
+  justify-items: center;
+}
+#cd{
+  display: flex;
+  justify-items: center;
+}
+.abb{
+  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+  border: 0;
+  border-radius: 3;
+  box-shadow: 0 3px 5px 2px rgba(255, 105, 135, .3);
+  color: white;
+  height: 60;
+  padding: 0 30px;
+}
+.abcd{
+  background: linear-gradient(45deg, rgb(78, 78, 145) 30%, rgb(64, 64, 160) 90%);
+  border: 0;
+  border-radius: 3;
+  box-shadow: 0 3px 5px 2px rgb(8, 8, 112);
+  color: white;
+  height: 60;
+  padding: 0 30px;
+}
+.abcde{
+  background: linear-gradient(45deg, rgb(116, 201, 116) 30%, rgb(23, 228, 23) 90%);
+  border: 0;
+  border-radius: 3;
+  box-shadow: 0 3px 5px 2px rgb(39, 87, 39);
+  color: white;
+  height: 60;
+  padding: 0 30px;
+}
+.aaaa{
+  background: linear-gradient(45deg, rgb(192, 192, 114) 30%, rgb(209, 209, 15) 90%);
+  border: 0;
+  border-radius: 3;
+  box-shadow: 0 3px 5px 2px rgb(100, 100, 42);
+  color: white;
+  height: 60;
+  padding: 0 30px;
+}
+.bbbbb{
+  display: flexbox;
+  width: 300px;
+  text-overflow: inherit;
+  overflow: scroll;
+  
+}
+
+.abc{
+  
+}
